@@ -1,10 +1,15 @@
 <template>
   <div class="content">
-    <img :src="theme.avator" width="135" height="135" class="avator" />
+    <img
+      :src="withBase(theme.avator)"
+      width="135"
+      height="135"
+      class="avator"
+    />
   </div>
 </template>
 <script lang="ts" setup>
-import { useData } from "vitepress";
+import { withBase, useData } from "vitepress";
 const { theme } = useData();
 </script>
 <style scoped>
