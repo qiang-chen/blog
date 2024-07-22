@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qiang",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@shikijs/vitepress-twoslash": "^1.10.3",
+    "dayjs": "^1.11.10",
+    "fast-glob": "^3.3.2",
+    "feed": "^4.2.2",
+    "fs-extra": "^11.2.0",
+    "globby": "14.0.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "shiki": "^1.10.3",
+    "vitepress": "1.3.1"
+  },
+  "scripts": {
+    "dev": "vitepress dev ",
+    "build": "vitepress build ",
+    "serve": "vitepress serve "
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0",
+    "typescript": "^5.5.3"
+  }
+}
