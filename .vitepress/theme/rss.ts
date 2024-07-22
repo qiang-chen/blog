@@ -6,7 +6,7 @@ import MarkdownIt from "markdown-it";
 import type { FeedOptions, Item } from "feed";
 import { Feed } from "feed";
 
-const DOMAIN = "https://clark-cui.top";
+const DOMAIN = "https://qiang-chen.github.io/";
 const AUTHOR = {
   name: "玉麟 & 阿幺",
   email: "chenqiang171@163.com",

@@ -5,6 +5,7 @@ import mathjax3 from "markdown-it-mathjax3";
 
 async function config() {
   return {
+    base: '/blog/',
     lang: "en-US",
     title: "玉麟 & 阿幺",
     description: "Home of 玉麟 & 阿幺",
