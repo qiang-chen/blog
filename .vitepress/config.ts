@@ -2,7 +2,6 @@ import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
 import { transformerTwoslash } from "@shikijs/vitepress-twoslash";
 import mathjax3 from "markdown-it-mathjax3";
-import { withBase } from "vitepress";
 
 async function config() {
   return {
@@ -16,7 +15,7 @@ async function config() {
         {
           rel: "icon",
           type: "image/svg",
-          href: withBase("/bird.svg"),
+          href: "bird.svg",
         },
       ],
       [
