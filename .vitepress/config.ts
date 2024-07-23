@@ -65,7 +65,7 @@ async function config() {
         },
       ],
       socialLinks: [
-        { icon: "github", link: "https://github.com/clark-cui" },
+        { icon: "github", link: "https://qiang-chen.github.io/blog" },
       ],
       // outline: 2, //设置右侧aside显示层级
       aside: false,
