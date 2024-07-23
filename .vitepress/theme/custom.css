@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.min.css");
+
 :root {
   --vp-c-brand: #a27b5c;
   --vp-c-brand-light: #a27b5c;
@@ -20,6 +21,7 @@
     monospace;
   --vp-avator-border: #ffffff;
 }
+
 .dark {
   --vp-c-bg: #2c3639;
   --vp-c-text: white;
@@ -27,6 +29,7 @@
   --vp-c-bg-alpha-with-backdrop: rgba(44, 54, 57, 0.7);
   --vp-avator-border: #3f4e4f;
 }
+
 #app {
   min-height: 100vh;
   position: relative;

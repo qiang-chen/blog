@@ -6,7 +6,7 @@
     </template>
     <template #doc-after>
       <div>
-        <button @click="back">cd ··</button>
+        <button @click="back">back</button>
       </div>
       <Comments />
     </template>
