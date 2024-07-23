@@ -15,7 +15,7 @@ async function config() {
         {
           rel: "icon",
           type: "image/svg",
-          href: "/bird.svg",
+          href: "/public/bird.svg",
         },
       ],
       [
