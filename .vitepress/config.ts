@@ -15,7 +15,7 @@ async function config() {
         {
           rel: "icon",
           type: "image/svg",
-          href: "/horse.svg",
+          href: "/bird.svg",
         },
       ],
       [
@@ -44,7 +44,7 @@ async function config() {
     lastUpdated: false,
     themeConfig: {
       // repo: "clark-cui/homeSite",
-      logo: "/horse.svg",
+      logo: "/bird.svg",
       avator: "/avator.png",
       search: {
         provider: "local",

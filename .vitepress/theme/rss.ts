@@ -24,8 +24,8 @@ const OPTIONS: FeedOptions = {
     rss: DOMAIN + "/feed.xml",
   },
   author: AUTHOR,
-  // image: "https://clark-cui.top/horse.svg",
-  // favicon: "https://clark-cui.top/horse.svg",
+  // image: "https://clark-cui.top/bird.svg",
+  // favicon: "https://clark-cui.top/bird.svg",
 };
 
 const markdown = MarkdownIt({
