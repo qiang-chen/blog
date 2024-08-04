@@ -42,11 +42,13 @@ export async function buildBlogRSS() {
 async function generateRSS() {
   const jsFiles = await fg("js/*.md");
   const dicomFiles = await fg("dicom/*.md");
+  const httpFiles = await fg("http/*.md");
+
 
 
   const posts: any[] = (
     await Promise.all(
-      [...jsFiles,...dicomFiles]
+      [...jsFiles,...dicomFiles,...httpFiles]
         .filter((i) => !i.includes("index"))
         .map(async (i) => {
           const raw = await fs.readFile(i, "utf-8");
