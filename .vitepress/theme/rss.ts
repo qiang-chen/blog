@@ -43,12 +43,12 @@ async function generateRSS() {
   const jsFiles = await fg("js/*.md");
   const dicomFiles = await fg("dicom/*.md");
   const httpFiles = await fg("http/*.md");
-
+  const webFiles = await fg("web/*.md");
 
 
   const posts: any[] = (
     await Promise.all(
-      [...jsFiles,...dicomFiles,...httpFiles]
+      [...jsFiles,...dicomFiles,...httpFiles,...webFiles]
         .filter((i) => !i.includes("index"))
         .map(async (i) => {
           const raw = await fs.readFile(i, "utf-8");
