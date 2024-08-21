@@ -45,7 +45,7 @@ async function generateRSS() {
   const httpFiles = await fg("http/*.md");
   const webFiles = await fg("web/*.md");
   const vueFiles = await fg("vue/*.md");
-  const algorithmFiles = await fg("algorithm/*.md");
+  const algorithmFiles = await fg("算法/*.md");
 
 
   const posts: any[] = (

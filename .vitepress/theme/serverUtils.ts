@@ -33,7 +33,7 @@ async function getPostMDFilePaths() {
   let paths = await globby(["**.md"], {
     ignore: ["node_modules", "README.md"],
   });
-  return paths.filter((item) => item.includes("js/")||item.includes("dicom/")||item.includes("http/")||item.includes("web/")||item.includes("vue/")||item.includes("algorithm/"));
+  return paths.filter((item) => item.includes("js/")||item.includes("dicom/")||item.includes("http/")||item.includes("web/")||item.includes("vue/")||item.includes("算法/"));
 }
 
 export async function getPostLength() {
