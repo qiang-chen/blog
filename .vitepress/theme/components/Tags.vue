@@ -4,6 +4,7 @@
     <div class="tags">
       <span
         @click="toggleTag(key)"
+        :key="key"
         v-for="(item, key) in data"
         class="tag"
         :style="getFontSize(data[key].length)"
@@ -54,7 +55,8 @@ import { initTags } from "../utils";
 
 const { theme } = useData();
 const data = computed(() => initTags(theme.value.posts));
-let selectTag = ref("");
+
+const selectTag = ref("js");
 const toggleTag = (tag: string) => {
   selectTag.value = tag;
 };
