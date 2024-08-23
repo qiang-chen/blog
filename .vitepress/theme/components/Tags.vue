@@ -63,7 +63,8 @@ const toggleTag = (tag: string) => {
 // set font-size
 const getFontSize = (length: number) => {
   let size = length * 0.04 + 0.85;
-  return { fontSize: `${size}em` };
+  return { fontSize: `${0.97}em` };
+  // return { fontSize: `${size}em` };
 };
 </script>
 
@@ -104,6 +105,7 @@ const getFontSize = (length: number) => {
 }
 .activetag {
   color: var(--vp-c-hover);
+  font-size: 1.2em !important;
 }
 .tag-length {
   color: var(--vp-c-brand);
