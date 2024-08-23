@@ -5,8 +5,6 @@ tags:
   - web
 ---
 
-# CSRF 跨站请求伪造攻击
-
 **跨站请求伪造**（Cross-site Request Forgery，简称 CSRF）是一种挟制用户在当前已登录的 Web 页面上执行非本意的操作的攻击方法。
 
 CSRF 攻击的本质是利用 cookie 会在同源请求中携带发送给服务器的特点，以此来实现用户的冒充。
