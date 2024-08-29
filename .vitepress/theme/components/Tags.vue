@@ -74,11 +74,32 @@ const getFontSize = (length: number) => {
   padding: 0.5rem 1.5rem 4rem;
   max-width: 48rem;
 }
+@keyframes shark-txt {
+  form {
+    background-position: -100%;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+
 .tags-header {
   font-weight: bold;
   padding-bottom: 14px;
+  color: #9747ff;
+  font-family: "RZGFDHDHJ";
   font-size: 2.25em;
   margin-top: 24px;
+  width: 100px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0) 60%
+    ) -100% / 50% no-repeat currentColor;
+  -webkit-background-clip: text;
+  animation: shark-txt 2s infinite;
 }
 .tags {
   margin-top: 14px;
