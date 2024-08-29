@@ -25,6 +25,11 @@ import Comments from "./Comments.vue";
 import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";
+import { useData } from "vitepress";
+
+const { theme } = useData();
+console.log("theme", theme);
+
 const { Layout } = DefaultTheme;
 const back = () => {
   history.back();

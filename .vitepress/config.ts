@@ -64,9 +64,10 @@ async function config() {
           link: "/tags",
         },
       ],
-      socialLinks: [
-        { icon: "github", link: "https://qiang-chen.github.io/blog" },
-      ],
+      // 去掉githup显示
+      // socialLinks: [
+      //   { icon: "github", link: "https://qiang-chen.github.io/blog" },
+      // ],
       // outline: 2, //设置右侧aside显示层级
       aside: false,
       // blogs page show firewokrs animation
