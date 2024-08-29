@@ -17,7 +17,7 @@ const { theme } = useData();
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 250px;
 }
 .avator {
   border-radius: 50%;
