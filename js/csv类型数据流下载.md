@@ -12,7 +12,7 @@ configApi.post(`/platform/push/exportCsv`, _params, { responseType: "arraybuffer
 console.log(data, headers)
 
 let blob = new Blob([data], { type: 'text/csv;charset=utf-8' }) // 将服务端返回的文件流（二进制）excel文件转化为blob
-let fileName = window.decodeURI(headers['content-disposition'].split('=')[1], "UTF-8");
+let fileName = window.decodeURI(headers['content-disposition'].split('=')[1]);
 
 console.log(blob, 'blob')
 if (window.navigator && window.navigator.msSaveOrOpenBlob) { // IE
@@ -31,6 +31,8 @@ if (window.navigator && window.navigator.msSaveOrOpenBlob) { // IE
 }
 })
 ```
+
+<img src='../public/csv1.png'>
 
 如果是csv，无需 { responseType: “arraybuffer” } ，并且在data 上加 “\ufeff” ，"\ufeff"是为了解决CSV中文乱码问题
 接口的返回结果是
