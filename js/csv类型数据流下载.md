@@ -5,7 +5,7 @@ tags:
   - js
 ---
 
-如果是文件流（二进制）excel文件转化为blob，需要传 { responseType: “arraybuffer” }
+如果是文件流（二进制）excel文件转化为blob，需要传 { responseType: arraybuffer }
 
 ```js
 configApi.post(`/platform/push/exportCsv`, _params, { responseType: "arraybuffer" }).then(({ data, headers }) => {
