@@ -1,5 +1,5 @@
 ---
-title: 分析下react的UI库都是怎么区分commonjs、esm、umd等规范的
+title: react的UI库都是怎么区分commonjs、esm、umd等规范的
 date: 2024-11-01
 tags:
   - react
