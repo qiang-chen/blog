@@ -2,7 +2,7 @@
 title: node连接 mysql8 报错
 date: 2024-10-24
 tags:
-  - 插件
+  - 小问题
 ---
 
 node链接mysql报错(connect ECONNREFUSED 127.0.0.1:3306 &...

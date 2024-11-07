@@ -2,7 +2,7 @@
 title: Windows MySQL8.0 下载安装添加环境变量使用
 date: 2024-10-24
 tags:
-  - 插件
+  - 小问题
 ---
 
 ## 下载MySQL

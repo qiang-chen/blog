@@ -2,7 +2,7 @@
 title: nvm和pm2常用命令
 date: 2024-11-01
 tags:
-  - 插件
+  - 小问题
 ---
 
 ## nvm
