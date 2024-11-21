@@ -79,3 +79,22 @@ server
     error_log  /www/wwwlogs/114.55.33.55.error.log;
 }
 ```
+
+如果 
+```bash
+  location /admin {
+      alias /www/wwwroot/default/admin;
+      try_files $uri $uri/ @router;
+      index index.html;
+    }
+    location @router {
+            rewrite ^.*$ /admin/index.html last;
+            # rewrite ^.*$ /index.html last;
+    }
+```
+直接换成
+```bash
+ location / {
+        try_files $uri $uri/ /index.html;  # 直接将所有请求重定向到 /index.html
+    }
+```
